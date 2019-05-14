@@ -28,7 +28,7 @@ const header = {
 
 const footer = {
     msg: {
-        companyBrochure: 'Company Brochure1',
+        companyBrochure: 'Company Brochure',
         product: 'Product',
         services: 'Services',
         support: 'Support',
