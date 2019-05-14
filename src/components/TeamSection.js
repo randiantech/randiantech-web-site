@@ -1,7 +1,9 @@
 import React from 'react';
+import data from '../data';
 
 export default class TeamSection extends React.Component {
     render() {
+        const { shared } = data;
         return (
             <section className="section bg-gray" id="team">
                 <div className="team">
@@ -27,19 +29,16 @@ export default class TeamSection extends React.Component {
                                         <p className="card-description">
                                             Motivated, action-oriented technology enthusiast with experience on multiple industries providing cutting edge technology
                                             solutions.
-                                </p>
+                                        </p>
                                         <div className="footer">
-                                            <a href="https://www.facebook.com/randiantech/" className="btn btn-just-icon btn-facebook btn-round">
+                                            <a href={shared.facebookLink} className="btn btn-just-icon btn-facebook btn-round">
                                                 <i className="fa fa-facebook"></i>
                                             </a>
-                                            <a href="#link" className="btn btn-just-icon btn-twitter btn-round">
+                                            <a href={shared.twitterLink} className="btn btn-just-icon btn-twitter btn-round">
                                                 <i className="fa fa-twitter"></i>
                                             </a>
-                                            <a href="#link" className="btn btn-just-icon btn-linkedin btn-round">
+                                            <a href="https://www.linkedin.com/in/juancarloscancela/" className="btn btn-just-icon btn-linkedin btn-round">
                                                 <i className="fa fa-linkedin"></i>
-                                            </a>
-                                            <a href="#link" className="btn btn-just-icon btn-dribbble btn-round">
-                                                <i className="fa fa-dribbble"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -58,19 +57,16 @@ export default class TeamSection extends React.Component {
                                         <p className="card-description">
                                             Software Architect with 15+ years of experience, working on critical IT positions on some of the most important companies
                                             in LATAM
-                                </p>
+                                        </p>
                                         <div className="footer">
-                                            <a href="https://www.facebook.com/randiantech/" className="btn btn-just-icon btn-facebook btn-round">
+                                            <a href={shared.facebookLink} className="btn btn-just-icon btn-facebook btn-round">
                                                 <i className="fa fa-facebook"></i>
                                             </a>
-                                            <a href="#link" className="btn btn-just-icon btn-twitter btn-round">
+                                            <a href={shared.twitterLink} className="btn btn-just-icon btn-twitter btn-round">
                                                 <i className="fa fa-twitter"></i>
                                             </a>
-                                            <a href="#link" className="btn btn-just-icon btn-linkedin btn-round">
+                                            <a href="https://www.linkedin.com/in/lucas-sebasti%C3%A1n-campana-levy-49a62425/" className="btn btn-just-icon btn-linkedin btn-round">
                                                 <i className="fa fa-linkedin"></i>
-                                            </a>
-                                            <a href="#link" className="btn btn-just-icon btn-dribbble btn-round">
-                                                <i className="fa fa-dribbble"></i>
                                             </a>
                                         </div>
                                     </div>
@@ -88,19 +84,16 @@ export default class TeamSection extends React.Component {
                                         <h6 className="category text-muted">Sales Account Manager</h6>
                                         <p className="card-description">
                                             Experienced sales account manager with vast experience on LATAM and US markets. Worked as Project Manager for top notch technology companies.
-                                </p>
+                                        </p>
                                         <div className="footer">
-                                            <a href="https://www.facebook.com/randiantech/" className="btn btn-just-icon btn-facebook btn-round">
+                                            <a href={shared.facebookLink} className="btn btn-just-icon btn-facebook btn-round">
                                                 <i className="fa fa-facebook"></i>
                                             </a>
-                                            <a href="#link" className="btn btn-just-icon btn-twitter btn-round">
+                                            <a href={shared.twitterLink} className="btn btn-just-icon btn-twitter btn-round">
                                                 <i className="fa fa-twitter"></i>
                                             </a>
-                                            <a href="#link" className="btn btn-just-icon btn-linkedin btn-round">
+                                            <a href="https://www.linkedin.com/in/guillermo-ismael-mulvihill-965384b8/" className="btn btn-just-icon btn-linkedin btn-round">
                                                 <i className="fa fa-linkedin"></i>
-                                            </a>
-                                            <a href="#link" className="btn btn-just-icon btn-dribbble btn-round">
-                                                <i className="fa fa-dribbble"></i>
                                             </a>
                                         </div>
                                     </div>

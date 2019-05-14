@@ -1,7 +1,9 @@
 import React from 'react';
+import data from '../data';
 
 export default class Footer extends React.Component {
     render() {
+        const { footer } = data;
         return (
             <footer className="footer section">
                 <div className="container footer-widget">
@@ -11,53 +13,41 @@ export default class Footer extends React.Component {
                                 <img src="img/logo.png" alt="Company logo" className="footer-logo img-responsive" />
                             </a>
                             <div className="social">
-                                <a href="https://www.facebook.com/randiantech/">
+                                <a href={footer.facebookLink}>
                                     <i className="fa fa-facebook"></i>
                                 </a>
-                                <a href="#social">
+                                <a href={footer.twitterLink}>
                                     <i className="fa fa-twitter"></i>
                                 </a>
-                                <a href="#social">
-                                    <i className="fa fa-google-plus"></i>
-                                </a>
-                                <a href="#social">
+                                <a href={footer.youtubeLink}>
                                     <i className="fa fa-youtube-play"></i>
                                 </a>
-                                <a href="#social">
+                                <a href={footer.instagramLink}>
                                     <i className="fa fa-instagram"></i>
                                 </a>
                             </div>
                             <hr className="up-hr" />
-                            <a className="btn btn-primary light btn-sm" href="#link">Company Brochure</a>
+                            <a className="btn btn-primary light btn-sm" href="#link">{footer.msg.companyBrochure}</a>
                         </div>
                         <div className="col col-sm-3">
-                            <h6 className="typo-light hd">Product</h6>
+                            <h6 className="typo-light hd">{footer.msg.product}</h6>
                             <ul className="list-1">
                                 <li>
-                                    <a href="#link">Services</a>
+                                    <a href="#services">{footer.msg.services}</a>
                                 </li>
                                 <li>
-                                    <a href="#link">Support</a>
+                                    <a href="#services">{footer.msg.support}</a>
                                 </li>
                                 <li>
-                                    <a href="#link">Help</a>
-                                </li>
-                                <li>
-                                    <a href="#link">Plan and Pricing</a>
+                                    <a href="#services">{footer.msg.help}</a>
                                 </li>
                             </ul>
                         </div>
                         <div className="col col-sm-3">
-                            <h6 className="typo-light hd">Company</h6>
+                            <h6 className="typo-light hd">{footer.msg.company}</h6>
                             <ul className="list-1">
                                 <li>
-                                    <a href="#link">About us</a>
-                                </li>
-                                <li>
-                                    <a href="#link">Privacy</a>
-                                </li>
-                                <li>
-                                    <a href="#link">Terms and Condition</a>
+                                    <a href="#about">{footer.msg.aboutUs}</a>
                                 </li>
                             </ul>
                         </div>

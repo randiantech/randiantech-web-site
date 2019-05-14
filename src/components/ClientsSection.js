@@ -77,27 +77,23 @@ export default class ClientsSection extends React.Component {
                         <div className="col-md-6 col-md-offset-1">
                             <div className="owl-carousel" id="owl-carousel">
                                 <div className="single-review text-center">
-                                    <img src="img/team/ceo.jpeg" alt="" className="img-circle" />
                                     <div className="review_content">
-                                        <blockquote>TBD2</blockquote>
-                                        <div className="review-author">TBD1</div>
+                                        <blockquote>We have no hesitancy whatsoever in recommending Randiantech as a mission critical partner.</blockquote>
+                                        <div className="review-author">Global Meaning</div>
                                     </div>
                                 </div>
                                 <div className="single-review text-center">
-                                    <img src="img/team/cto.png" alt="" className="img-circle" />
                                     <div className="review_content">
-                                        <blockquote>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Labore consequuntur, consequatur
-                                        ad nesciunt nulla voluptate voluptates.</blockquote>
-                                        <div className="review-author">Lucas Campana, CTO</div>
+                                        <blockquote>Randiantech quickly became one of our most valued partners. Randiantech team dedication and willingness to work towards a first class deliverable is beyond our -high- initial expectations.</blockquote>
+                                        <div className="review-author">Level 3 Communications</div>
                                     </div>
                                 </div>
                                 <div className="single-review text-center">
-                                    <img src="img/clients/3.png" alt="" className="img-circle" />
                                     <div className="review_content">
                                         <blockquote>
-                                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Dolore odit voluptates vero ea, sint! Eligendi?
+                                          I want to thank Randiantech team for the timely delivery of the product and for the outstanding engineering solutions provided.
                                         </blockquote>
-                                        <div className="review-author">Alexa, SEO Expert</div>
+                                        <div className="review-author">Evertok CEO</div>
                                     </div>
                                 </div>
                             </div>

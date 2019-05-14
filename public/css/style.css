@@ -2149,3 +2149,28 @@
          float: none;
      }
  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* --------------------------------------
+2. CUSTOM STYLES
+-----------------------------------------*/
+.rt-logo {
+    border: 2px solid white;
+    background: white;
+    border-radius: 10px;
+ }

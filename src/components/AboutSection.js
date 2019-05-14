@@ -21,8 +21,7 @@ export default class AboutSection extends React.Component {
                                     <p>
                                         Get connected with highly skilled, experienced developers that leverages the newest in technology to amplify your organization's
                                         potential.
-                            </p>
-                                    <a href="#up">More...</a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -36,8 +35,7 @@ export default class AboutSection extends React.Component {
                                     <p>
                                         With Javascript as our strongest, essential area of expertise, we have extensive experience on web, storage, mobile, testing
                                         and infrastructure.
-                            </p>
-                                    <a href="#up">More...</a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
@@ -51,8 +49,7 @@ export default class AboutSection extends React.Component {
                                     <p>
                                         We provide high quality training and coaching to companies -from startups to corporations- to help them find and adopt agile
                                         methodology to their own company needs.
-                            </p>
-                                    <a href="#up">More...</a>
+                                    </p>
                                 </div>
                             </div>
                         </div>
