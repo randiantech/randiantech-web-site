@@ -25,7 +25,7 @@ export default class TeamSection extends React.Component {
                                     </div>
                                     <div className="content">
                                         <h4 className="card-title">Juan Carlos Cancela</h4>
-                                        <h6 className="category text-muted">CEO / Co-Founder</h6>
+                                        <h6 className="category text-muted">CEO</h6>
                                         <p className="card-description">
                                             Motivated, action-oriented technology enthusiast with experience on multiple industries providing cutting edge technology
                                             solutions.
@@ -52,11 +52,10 @@ export default class TeamSection extends React.Component {
                                         </a>
                                     </div>
                                     <div className="content">
-                                        <h4 className="card-title">Lucas Campana</h4>
+                                        <h4 className="card-title">Edax Ucles</h4>
                                         <h6 className="category text-muted">CTO</h6>
                                         <p className="card-description">
-                                            Software Architect with 15+ years of experience, working on critical IT positions on some of the most important companies
-                                            in LATAM
+                                             Technology guru and entrepreneur. Founder of Chekku field management platform. Codementor 5 star teacher.
                                         </p>
                                         <div className="footer">
                                             <a href={shared.facebookLink} className="btn btn-just-icon btn-facebook btn-round">
@@ -65,7 +64,7 @@ export default class TeamSection extends React.Component {
                                             <a href={shared.twitterLink} className="btn btn-just-icon btn-twitter btn-round">
                                                 <i className="fa fa-twitter"></i>
                                             </a>
-                                            <a href="https://www.linkedin.com/in/lucas-sebasti%C3%A1n-campana-levy-49a62425/" className="btn btn-just-icon btn-linkedin btn-round">
+                                            <a href="https://www.linkedin.com/in/edax-ucl%C3%A9s-aa597657/" className="btn btn-just-icon btn-linkedin btn-round">
                                                 <i className="fa fa-linkedin"></i>
                                             </a>
                                         </div>
