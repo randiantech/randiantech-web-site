@@ -33,8 +33,7 @@ export default class AboutSection extends React.Component {
                                 <div className="description">
                                     <h4 className="info-title">All Things Web!</h4>
                                     <p>
-                                        With Javascript as our strongest, essential area of expertise, we have extensive experience on web, storage, mobile, testing
-                                        and infrastructure.
+                                        Randiantech talents have strong experience on Web Technologies, mastering web, storage, mobile, testing and infrastructure.
                                     </p>
                                 </div>
                             </div>
@@ -47,8 +46,8 @@ export default class AboutSection extends React.Component {
                                 <div className="description">
                                     <h4 className="info-title">Agile Development</h4>
                                     <p>
-                                        We provide high quality training and coaching to companies -from startups to corporations- to help them find and adopt agile
-                                        methodology to their own company needs.
+                                        We provide high quality training and coaching -from startups to corporations- to help you find and adopt agile
+                                        methodology to your own needs.
                                     </p>
                                 </div>
                             </div>

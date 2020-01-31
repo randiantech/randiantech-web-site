@@ -15,9 +15,9 @@ const header = {
         clients: 'Clients',
         contact: 'Contact',
         weAreExpertsIn: 'We Are Experts In ',
-        welcomeTo: 'Welcome to ',
+        welcomeTo: '',
         randiantech: 'Randiantech',
-        details: 'Get access to a talented, multidisciplinary team of experienced software engineers, specialized in developing New Products, QA and Staff Augmentation.'
+        details: 'We Craft INSTANTLY LOVED Software'
     },
     twitterLink: shared.twitterLink,
     facebookLink: shared.facebookLink,

@@ -112,7 +112,7 @@ export default class ServicesSection extends React.Component {
                                             </div>
                                             <div className="description">
                                                 <h4 className="info-title">RESTful & Microservices</h4>
-                                                <p>Looking for a more flexible, scalable and predictable architecture? Moving away from a monolithic architure? Met the team that has succesfully modernize platforms from startups to world-class companies.</p>
+                                                <p>Looking for a more flexible, scalable and predictable architecture? Moving away from a monolithic architecture? Met the team that has succesfully modernize platforms from startups to world-class companies.</p>
                                             </div>
                                         </div>
                                         <div className="info info-horizontal">

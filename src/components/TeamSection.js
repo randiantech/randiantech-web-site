@@ -55,7 +55,8 @@ export default class TeamSection extends React.Component {
                                         <h4 className="card-title">Edax Ucles</h4>
                                         <h6 className="category text-muted">CTO</h6>
                                         <p className="card-description">
-                                             Technology guru and entrepreneur. Founder of Chekku field management platform. Codementor 5 star teacher.
+                                             Technology entrepreneur. Founder of Chekku field management platform. 
+                                             Codementor 5 star teacher. 10+ years experience defining scalable platforms.
                                         </p>
                                         <div className="footer">
                                             <a href={shared.facebookLink} className="btn btn-just-icon btn-facebook btn-round">
@@ -75,7 +76,7 @@ export default class TeamSection extends React.Component {
                                 <div className="card card-profile card-plain">
                                     <div className="card-avatar">
                                         <a href="#link">
-                                            <img className="img" src="img/team/3.jpg" alt="team" />
+                                            <img className="img" src="img/team/cfo.png" alt="team" />
                                         </a>
                                     </div>
                                     <div className="content">
