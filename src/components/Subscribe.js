@@ -2,12 +2,13 @@ import React from 'react';
 
 export default class Subscribe extends React.Component {
     render() {
+        return null;
         return (
             <div className="subscribe bg-primary">
                 <div className="container">
                     <div className="row">
                         <div className="col-md-6">
-                            <h3 className="title">Subscribte to our news letter</h3>
+                            <h3 className="title">Subscribe to our news letter</h3>
                         </div>
                         <div className="col-md-6 text-right">
                             <form method="post" id="subscribe">

@@ -17,9 +17,7 @@ export default class Header extends React.Component {
                                     <span className="icon-bar"></span>
                                     <span className="icon-bar"></span>
                                 </button>
-                                <a className="" href="#up">
-                                    <img src="img/logo.png" alt="logo" className="img-responsive navbar-brand rt-logo" />
-                                </a>
+                                <img src="img/logo.png" alt="logo" className="img-responsive rt-logo" />
                             </div>
                             <div className="collapse navbar-collapse" id="navigation-example">
                                 <ul className="nav navbar-nav navbar-right">
@@ -45,7 +43,7 @@ export default class Header extends React.Component {
                     <div id="home" className="page-hero">
                         <div className="container">
                             <div className="row">
-                                <div className="col-md-6 col-md-offset-0 col-sm-8 col-sm-offset-2 home-text">
+                                <div className="col-md-7 col-md-offset-0 col-sm-8 col-sm-offset-2 home-text">
                                     <h1 className="title">{header.msg.welcomeTo}<strong>{header.msg.randiantech}</strong></h1>
                                     <p className="up-type-title"> {header.msg.weAreExpertsIn}
                                         <span className="animated-text" id="animated-text"></span>

@@ -33,11 +33,14 @@
  body {
      background-color: #fff;
      color: #3C4858;
-     font-family: 'Roboto', sans-serif;
  }
  
  a {
      color: #e91e63;
+ }
+
+ .force-height {
+     height: 130px !important;
  }
  
  a:hover,
@@ -1430,6 +1433,7 @@
  /* 6. About */
  
  #about {
+     padding-top: 70px;
      padding-bottom: 0;
      position: relative;
  }
@@ -2172,5 +2176,6 @@
 .rt-logo {
     border: 2px solid white;
     background: white;
-    border-radius: 10px;
+    border-radius: 5px;
+    height: 60px;
  }
